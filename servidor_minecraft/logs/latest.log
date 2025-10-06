@@ -1,106 +1,32 @@
-[15:35:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[15:35:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[15:35:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:35:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[15:35:16] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
-[15:35:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:35:24] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[15:35:24] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[15:35:25] [ServerMain/INFO]: No existing world data, creating new world
-[15:35:25] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 9154ms.
-[15:35:26] [ServerMain/INFO]: Loaded 1407 recipes
-[15:35:26] [ServerMain/INFO]: Loaded 1520 advancements
-[15:35:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:35:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 495.5ms
-[15:35:27] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:35:27] [Server thread/INFO]: Loading properties
-[15:35:27] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:35:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:35:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:35:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:35:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:35:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:35:28] [Server thread/INFO]: Default game type: SURVIVAL
-[15:35:28] [Server thread/INFO]: Generating keypair
-[15:35:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:35:28] [Server thread/INFO]: Using epoll channel type
-[15:35:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:35:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:35:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:35:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:35:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:35:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:35:28] [Server thread/INFO]: Preparing level "world"
-[15:35:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:35:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:35:40] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:40] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:41] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:41] [Server thread/INFO]: Preparing spawn area: 10%
-[15:35:42] [Server thread/INFO]: Preparing spawn area: 18%
-[15:35:42] [Server thread/INFO]: Preparing spawn area: 18%
-[15:35:43] [Server thread/INFO]: Preparing spawn area: 24%
-[15:35:43] [Server thread/INFO]: Preparing spawn area: 36%
-[15:35:44] [Server thread/INFO]: Preparing spawn area: 36%
-[15:35:44] [Server thread/INFO]: Preparing spawn area: 65%
-[15:35:45] [Server thread/INFO]: Preparing spawn area: 65%
-[15:35:45] [Server thread/INFO]: Time elapsed: 5713 ms
-[15:35:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:35:45] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:45] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:46] [Server thread/INFO]: Preparing spawn area: 22%
-[15:35:46] [Server thread/INFO]: Preparing spawn area: 51%
-[15:35:47] [Server thread/INFO]: Time elapsed: 1833 ms
-[15:35:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:35:47] [Server thread/INFO]: Preparing spawn area: 2%
-[15:35:47] [Server thread/INFO]: Preparing spawn area: 61%
-[15:35:47] [Server thread/INFO]: Time elapsed: 556 ms
-[15:35:47] [Server thread/INFO]: [spark] Starting background profiler...
-[15:35:48] [Server thread/INFO]: Done preparing level "world" (19.907s)
-[15:35:48] [Server thread/INFO]: Running delayed init tasks
-[15:35:48] [Server thread/INFO]: Done (33.818s)! For help, type "help"
-[15:35:48] [Server thread/INFO]: *************************************************************************************
-[15:35:48] [Server thread/INFO]: This is the first time you're starting this server.
-[15:35:48] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[15:35:48] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[15:35:48] [Server thread/INFO]: *************************************************************************************
-[15:35:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
-home/codespace/.python/current/bin/python /workspaces/techtok/msx.py<--[HERE]
-[15:37:40] [User Authenticator #0/INFO]: UUID of player cozyyfps is 44ca9a32-dc88-3d32-b69a-88c97582839d
-[15:37:41] [Server thread/INFO]: cozyyfps joined the game
-[15:37:41] [Server thread/INFO]: cozyyfps[/127.63.141.92:59343] logged in with entity id 55 at ([world]-9.5, 76.0, -0.5)
-[15:38:17] [Server thread/INFO]: cozyyfps issued server command: /help
-[15:39:47] [Server thread/INFO]: cozyyfps lost connection: Disconnected
-[15:39:47] [Server thread/INFO]: cozyyfps left the game
-[15:39:47] [Server thread/INFO]: Stopping server
-[15:39:47] [Server thread/INFO]: Saving players
-[15:39:47] [Server thread/INFO]: Saving worlds
-[15:39:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:39:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:39:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:39:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 649 entity chunks, 6 poi chunks in world 'world' in 3.10s
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:39:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.44s
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.26s
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:39:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:39:51] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:39:51] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:39:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:39:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:03:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[17:03:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[17:03:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:03:32] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.Main.main(Main.java:112) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.Main.main(Main.java:242) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[17:03:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[17:03:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - DeluxeHub (3.6.4), DiscordSRV (1.30.1), PlaceholderAPI (2.11.6), Vault (1.7.3-b131), ViaBackwards (5.5.1-SNAPSHOT), ViaVersion (5.5.1-SNAPSHOT)
+[17:03:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:03:38] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/techtok/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:436) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:351) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.Main.main(Main.java:185) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.Main.main(Main.java:242) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
