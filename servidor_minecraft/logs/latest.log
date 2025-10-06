@@ -1,7 +1,7 @@
-[17:03:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[17:03:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[17:03:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:03:32] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+[17:13:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[17:13:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[17:13:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:13:48] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
@@ -15,18 +15,44 @@ java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugi
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/grimac-fabric-2.3.72-12e79a1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	... 10 more
-[17:03:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[17:03:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[17:13:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[17:13:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - DeluxeHub (3.6.4), DiscordSRV (1.30.1), PlaceholderAPI (2.11.6), Vault (1.7.3-b131), ViaBackwards (5.5.1-SNAPSHOT), ViaVersion (5.5.1-SNAPSHOT)
-[17:03:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:03:38] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/techtok/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:436) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:351) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.Main.main(Main.java:185) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.craftbukkit.Main.main(Main.java:242) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+[17:13:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:13:56] [ServerMain/INFO]: Loaded 1407 recipes
+[17:13:56] [ServerMain/INFO]: Loaded 1520 advancements
+[17:13:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:13:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 506.3ms
+[17:13:57] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:13:57] [Server thread/INFO]: Loading properties
+[17:13:57] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[17:13:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:13:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:13:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:13:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:13:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:13:58] [Server thread/INFO]: Default game type: SURVIVAL
+[17:13:58] [Server thread/INFO]: Generating keypair
+[17:13:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:13:58] [Server thread/INFO]: Using epoll channel type
+[17:13:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:13:58] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:13:58] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[17:13:58] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[17:13:58] [Server thread/WARN]: Perhaps a server is already running on that port?
+[17:13:58] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to bind to port
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:230) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[17:13:58] [Server thread/ERROR]: This crash report has been saved to: /workspaces/techtok/servidor_minecraft/crash-reports/crash-2025-10-06_17.13.58-server.txt
+[17:13:58] [Server thread/INFO]: Stopping server
+[17:13:58] [Server thread/INFO]: Saving players
+[17:13:59] [Server thread/INFO]: Saving worlds
+[17:13:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:13:59] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:13:59] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:13:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:13:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
